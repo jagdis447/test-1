@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Quarto Blog",
     "section": "",
-    "text": "Power BI: Unlocking Data Insights with Interactive Visualizations\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome\n\n\n\n\n\nWelcome Post\n\n\n\n\n\nFeb 14, 2025\n\n\nNipun Batra\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome.html",
@@ -12,69 +12,6 @@
     "title": "Welcome",
     "section": "",
     "text": "Welcome\nHello world, this is my first blog post.\nI can write in markdown\nprint(\"Hello World\")\nI can also write math equations:\n\\[\ny = x^2\n\\]\nI can create lists easily:\n\nOne\nTwo\n\nI can also create numbered lists:\n\nOne\nTwo\n\nOr, create a table:\n\n\n\nName\nAge\n\n\n\n\nAlice\n20\n\n\nBob\n21"
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html",
-    "href": "posts/Power-BI_Blog.html",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "",
-    "text": "Power BI is a powerful business analytics tool from Microsoft that enables users to create interactive visualizations and reports. It is widely used in industries for data analysis, data handling, reporting, and decision-making. It is primarily used to analyse data but other functionalities are also very helpful.\nIn this blog, we will use Power BI Desktop to analyze a restaurant business dataset, which includes information on sales, customer ratings, and revenue. We will explore various visualizations, filtering options, and DAX formulas to generate meaningful insights for business."
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#introduction",
-    "href": "posts/Power-BI_Blog.html#introduction",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "",
-    "text": "Power BI is a powerful business analytics tool from Microsoft that enables users to create interactive visualizations and reports. It is widely used in industries for data analysis, data handling, reporting, and decision-making. It is primarily used to analyse data but other functionalities are also very helpful.\nIn this blog, we will use Power BI Desktop to analyze a restaurant business dataset, which includes information on sales, customer ratings, and revenue. We will explore various visualizations, filtering options, and DAX formulas to generate meaningful insights for business."
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#installation-setup",
-    "href": "posts/Power-BI_Blog.html#installation-setup",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "2. Installation & Setup",
-    "text": "2. Installation & Setup\nSteps to Install Power BI Desktop: 1. Download Power BI Desktop from the Microsoft Store. 2. Open Power BI and click on Get Data &gt; CSV. 3. Select and load the dataset. 4. Navigate to the Data View to check if all columns are correctly imported."
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#key-features-explanation",
-    "href": "posts/Power-BI_Blog.html#key-features-explanation",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "3. Key Features & Explanation",
-    "text": "3. Key Features & Explanation\nPower BI offers several features to transform raw data into meaningful insights: - Data Import & Transformation: Easily import and transform (if needed) data from CSV, Excel, and databases. - Interactive Visualizations: Create bar charts, line charts, pie charts, and more for better understanding of the data. - Filtering & Slicing: Apply filters to drill down into specific categories, time frames, or locations for better analysis - DAX (Data Analysis Expressions):Use formulas to calculate sales, revenue growth, and other business metrics. - Custom Dashboards: Combine multiple visualizations into a single, interactive dashboard for quick decision-making."
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#code-examples-in-dax",
-    "href": "posts/Power-BI_Blog.html#code-examples-in-dax",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "4. Code Examples in DAX",
-    "text": "4. Code Examples in DAX\n1. Total Sales Calculation\nExplanation:\nThis formula calculates the total sales of all restaurants using the SUM() function. It helps understand overall revenue in the dataset.\n```DAX Total Sales = SUM(RestaurantData[Sales])\n2. Year-over-Year (YoY) Growth Calculation\nExplanation:\nThis formula compares sales growth between two years to track business performance.\n```DAX YOY Growth = ([Current Year Sales] - [Previous Year Sales]) / [Previous Year Sales] * 100\n3. Ranking Restaurants Based on Sales\nExplanation:\nThis formula ranks restaurants based on their sales performance using the RANKX() function.\n```DAX Sales Rank = RANKX(ALL(RestaurantData), RestaurantData[Sales], , DESC, DENSE)\n4. Creating a Profit Margin Column\nExplanation:\nIf we have profit and sales data, we can calculate the profit margin using DIVIDE() to avoid division errors.\n```DAX Profit Margin = DIVIDE(RestaurantData[Profit], RestaurantData[Sales])\n5. Filtering High Sales Restaurants\nExplanation:\nTo analyze only top-performing restaurants, we filter those with sales above ₹1,00,000 using FILTER().\n```DAX High Sales = FILTER(RestaurantData, RestaurantData[Sales] &gt; 100000)\n6. Average Sales per Restaurant\nExplanation:\nhis gives the average sales value.\n```DAX Average Sales = AVERAGE(RestaurantData[Sales])"
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#screenshots",
-    "href": "posts/Power-BI_Blog.html#screenshots",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "5. Screenshots",
-    "text": "5. Screenshots"
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#use-cases",
-    "href": "posts/Power-BI_Blog.html#use-cases",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "6. Use Cases",
-    "text": "6. Use Cases\nPower BI is widely used in various industries:\n1 Business Intelligence: Track sales and revenue trends.\n2 Finance: Analyze expenses and profits.\n3 Marketing: Monitor campaign performance.\n4 Retail: Manage inventory and customer trends."
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#conclusion",
-    "href": "posts/Power-BI_Blog.html#conclusion",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "7. Conclusion",
-    "text": "7. Conclusion\nPower BI helps in data analysis by providing powerful visualizations and easy-to-use dashboards and even simplify the process of data handling although its main functionality is data analysis. Through this assignment, we:\n1. Installed and set up Power BI. 2. Imported a dataset and created interactive charts. 3. Used DAX formulas for calculations. 4. Applied filters to refine insights.\nPower BI is an essential tool for data-driven decision-making!"
-  },
-  {
-    "objectID": "posts/Power-BI_Blog.html#references-further-reading",
-    "href": "posts/Power-BI_Blog.html#references-further-reading",
-    "title": "Power BI: Unlocking Data Insights with Interactive Visualizations",
-    "section": "8. References & Further Reading",
-    "text": "8. References & Further Reading\n\nPower BI Tutorial for Beginners (YouTube)\n\nOfficial Power BI Documentation\n\nDAX Guide (Official)\n\nPower BI YouTube Channel (Microsoft)"
   },
   {
     "objectID": "index.html",
